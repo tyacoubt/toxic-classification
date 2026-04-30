@@ -1,0 +1,11 @@
+config,val_f1,delta
+Larger vocab (100k),0.7826,0.0039
+"Baseline (bigrams, sublinear, balanced, 50k, clean text)",0.7787,0.0
+Stricter min_df (10),0.7769,-0.0018
+Looser min_df (2),0.7754,-0.0033
+"Trigrams added (1,3)",0.774,-0.0047
+No class weighting,0.7732,-0.0055
+No sublinear TF,0.7691,-0.0096
+"Unigrams only (1,1)",0.7644,-0.0143
+Smaller vocab (20k),0.7406,-0.0381
+"Clean text, keep punctuation",0.7129,-0.0658

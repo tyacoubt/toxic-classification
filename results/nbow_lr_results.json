@@ -1,0 +1,11 @@
+{
+  "model": "NBOW + LR",
+  "f1_toxic": 0.7917,
+  "precision_toxic": 0.8464,
+  "recall_toxic": 0.7437,
+  "f1_nontoxic": 0.978,
+  "f1_macro": 0.8849,
+  "f1_weighted": 0.9591,
+  "roc_auc": 0.9698,
+  "decision_threshold": 0.89
+}
