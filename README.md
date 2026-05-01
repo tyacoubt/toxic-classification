@@ -67,8 +67,8 @@ Or download `train.csv` and `test.csv` manually from the Kaggle page and place i
 
 Run notebooks in the following order. Each notebook depends on the previous ones having been run.
 
-| Notebook | Owner | What it does |
-|---|---|---|
+| Notebook | What it does |
+|---|---|
 | `eda.ipynb` | Explore class distribution, comment lengths, vocabulary |
 | `preprocessing.ipynb` | Build and save stratified splits — **run this before anything else** |
 | `majority_baseline.ipynb` | Evaluate the all-non-toxic baseline, save metrics JSON |
