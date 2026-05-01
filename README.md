@@ -88,7 +88,7 @@ Run notebooks in the following order. Each notebook depends on the previous ones
 | Train / val / test | 80 / 10 / 10 stratified | Preserves class ratio across splits |
 | Class imbalance — LR | `class_weight='balanced'` | Inverse-frequency weighting built into sklearn |
 | Class imbalance — DistilBERT | Weighted `CrossEntropyLoss` | Applied during training only |
-| DistilBERT `max_len` | 128 tokens | Covers ~95% of comments; see 01_eda.ipynb for justification |
+| DistilBERT `max_len` | 128 tokens | Covers ~80% of comments; see eda.ipynb for justification |
 | LR regularisation C | 1000 | Selected by 5-fold CV on val F1; plateau confirmed beyond C=10 |
 | Random seed | 42 everywhere | Set in `src/data_utils.py` as `RANDOM_SEED` |
 
@@ -106,7 +106,7 @@ Run notebooks in the following order. Each notebook depends on the previous ones
 
 ## Evaluation
 
-All models are evaluated on the same held-out test split using F1 on the toxic class as the primary metric. Results are saved to `results/*.json` and compared in notebook 06.
+All models are evaluated on the same held-out test split using F1 on the toxic class as the primary metric. Results are saved to `results/*.json` and compared in error_analysis notebook.
 
 ---
 
