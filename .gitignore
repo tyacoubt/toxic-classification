@@ -6,4 +6,4 @@ __pycache__/
 .ipynb_checkpoints/
 *.egg-info/
 .env
-wandb/
+wandb/preprocessing.ipynb
