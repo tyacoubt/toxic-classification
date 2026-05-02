@@ -7,3 +7,5 @@ __pycache__/
 *.egg-info/
 .env
 wandb/preprocessing.ipynb
+.venv/
+preprocessing.ipynb
