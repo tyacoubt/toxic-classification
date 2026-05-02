@@ -1,0 +1,30 @@
+{
+  "model": "DistilBERT",
+  "f1_toxic": 0.8259,
+  "precision_toxic": 0.7975,
+  "recall_toxic": 0.8564,
+  "f1_nontoxic": 0.9795,
+  "f1_macro": 0.9027,
+  "f1_weighted": 0.9639,
+  "roc_auc": 0.984,
+  "epochs": 3,
+  "lr": 2e-05,
+  "batch_size": 32,
+  "history": {
+    "train_loss": [
+      0.2488,
+      0.1551,
+      0.1025
+    ],
+    "val_loss": [
+      0.2282,
+      0.218,
+      0.3362
+    ],
+    "val_f1": [
+      0.8222,
+      0.8079,
+      0.8294
+    ]
+  }
+}
